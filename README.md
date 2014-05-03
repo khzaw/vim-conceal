@@ -1,8 +1,7 @@
 Make use of vim's "conceal" feature to replace certain language keywords with unicode characters. Just for pure eyecandy. This does not replace your source code at any point.
 
-This
 ![screenshot_before](screen_shot_before.png "Screenshot before")
-to
+
 ![screenshot](screen_shot.png "Screenshot")
 
 
