@@ -1,6 +1,12 @@
 Make use of vim's "conceal" feature to replace certain language keywords with unicode characters. Just for pure eyecandy. This does not replace your source code at any point.
 
-![screenshot_before](screen_shot_before.png "Screenshot before")
+```py
+import math
+
+circle_area = lambda r: math.pi * r ** 2
+sphere_vol = lambda r: 4 * math.pi * radius ** 3 / 3
+random = lambda a, b, c, x, y: math.sqrt(sum(a, c, c))
+```
 
 ![screenshot](screen_shot.png "Screenshot")
 
