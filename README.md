@@ -4,8 +4,8 @@ Make use of vim's "conceal" feature to replace certain language keywords with un
 import math
 
 circle_area = lambda r: math.pi * r ** 2
-sphere_vol = lambda r: 4 * math.pi * radius ** 3 / 3
-random = lambda a, b, c, x, y: math.sqrt(sum(a, c, c))
+sphere_vol = lambda r: 4 * math.pi * r ** 3 / 3
+random = lambda a, b, c: math.sqrt(sum(a, b, c))
 ```
 
 ![screenshot](screen_shot.png "Screenshot")
