@@ -9,3 +9,20 @@ Use of a plugin manager like [Pathogen](https://github.com/tpope/vim-pathogen), 
 
 Plugin is inspired by <http://github.com/Twinside/vim-haskellConceal>
 
+## Supported filetypes
+
+- `ocaml`
+- `python`
+- `ruby`
+- `javascript`
+- `javascriptreact`
+- `go`
+- `typescript`
+- `typescriptreact`
+
+Each filetype has its own conceal mappings (comparators, logical operators, and selected language keywords/symbols).
+
+## Notes
+
+- Conceal rules are enabled only when Vim has conceal support and `encoding` is `utf-8`.
+- Set `let g:no_vim_conceal = 1` to disable this plugin globally.

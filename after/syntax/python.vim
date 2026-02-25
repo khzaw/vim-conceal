@@ -5,7 +5,9 @@ endif
 " comparators
 syntax match pyOperator "<=" conceal cchar=≤
 syntax match pyOperator ">=" conceal cchar=≥
+syntax match pyOperator "==" conceal cchar=≡
 syntax match pyOperator "!=" conceal cchar=≢
+syntax match pyOperator "->" conceal cchar=→
 
 " math related
 syntax match pyOperator " / " conceal cchar=÷
@@ -19,6 +21,11 @@ syntax match pyKeyword "\<\%(math\.\)\?pi\>" conceal cchar=π
 " keywords
 syntax keyword pyOperator product conceal cchar=∏
 syntax keyword pyOperator sum conceal cchar=∑
+syntax keyword pyOperator and conceal cchar=∧
+syntax keyword pyOperator or conceal cchar=∨
+syntax keyword pyOperator in conceal cchar=∈
+syntax match pyOperator "\<not\s\+in\>" conceal cchar=∉
+syntax keyword pyOperator not conceal cchar=¬
 syntax keyword pyStatement lambda conceal cchar=λ
 
 hi link pyOperator Operator
